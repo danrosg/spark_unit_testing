@@ -11,6 +11,7 @@ gen### SBT template
 # http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
 
 dist/*
+metastore_db/
 target/
 lib_managed/
 src_managed/

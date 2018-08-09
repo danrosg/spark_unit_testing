@@ -10,7 +10,7 @@ class SimpleTransformationTest  extends FunSuite with
 
   override def beforeAll(): Unit = {
 
-    spark= SparkSession.builder().master("local[*]").appName("spark_unit_testing_tests").getOrCreate()
+    spark= SparkSession.builder().master("local[*]").appName("spark_unit_testing_tests").enableHiveSupport().getOrCreate()
 
   }
 
